@@ -12,6 +12,8 @@ div, p{
   border: 1px solid red;
 }
 
+/* !Block Header */
+
 .header {
   min-height: 600px;
   max-height: 756px;
@@ -36,7 +38,6 @@ div, p{
   background-image: url(../images/logo_place_header.svg);
 }
 
-
 .header__title {
   align-self: center;
   position: absolute;
@@ -49,6 +50,7 @@ div, p{
   font-weight: bold;
   z-index: 4;
 }
+
 .header__subtitle {
   position: absolute;
   left: 64px;
@@ -66,7 +68,8 @@ div, p{
   text-decoration: none;
   color: #2f80ed;
   /*margin-right: 20px;*/
-  }
+}
+
 .header__link_active{
   text-decoration: underline;
 }
@@ -81,6 +84,7 @@ div, p{
   background-size: contain;
   z-index: 2;
 }
+
 .header__square-pic{
   position: absolute;
   right:0px;
@@ -93,47 +97,71 @@ div, p{
   z-index: 1;
 }
 
+/* !Block Content */
+
 .content{
 	position: relative;
-  /*display:flex;*/
-	/*justify-content: flex-end;*/
+  display:flex;
+  flex-direction: column;
   align-items: center;
-  /*height: 100vh;*/
-  width: 100%;
+  width: 100vw;
 	background-color: #f2f2f2;
-	/*padding-right: 40px;*/
   color: #000000;
 }
-.centered-block{
-  margin: auto;
-}
-.flex-row {
+
+/* !Content item -Description */
+
+.two-columns{
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
 
-
-.flex-row_space_bottom{
-  margin-bottom: 100px;
-}
-
-.flex-row_space_top{
+.content__two-columns{
+  margin-bottom:100px;
   margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.flex-column {
-  display: flex;
-  justify-content: space-between;
-}
-.flex-column_reversed {
-  flex-direction: column-reverse;
-}
-.brief {
-  background-position: center;
-  background-size: cover;
+
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
   width: 175px;
-  height: 200px;
 }
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.p__item{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.p__last_item{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.span-accent{
+  font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
 
 /*Example
 
