@@ -9,9 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: white;
 }
-div, p, td, tr, table, nav,ul,li{
-  border: 1px solid red;
-}
+
 
 /* !Block header */
 
@@ -201,6 +199,7 @@ div, p, td, tr, table, nav,ul,li{
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  z-index: 1;
 }
 .table__heading {
   margin-top: 0;
@@ -320,12 +319,11 @@ div, p, td, tr, table, nav,ul,li{
 /* !Block footer */
 
   .footer{
-    /*background-color: #1f1f1f;*/
+    background-color: #1f1f1f;
     display: flex;
-    background-color: grey;
     color:white;
     min-height: 350px;
-    /*width: 100%;*/
+    width: 100%;
   }
 
   .footer__columns {
