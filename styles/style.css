@@ -317,7 +317,7 @@ div, p, td, tr, table, nav,ul,li{
   }
 
 
-
+/* !Block footer */
 
   .footer{
     /*background-color: #1f1f1f;*/
@@ -390,12 +390,7 @@ div, p, td, tr, table, nav,ul,li{
     text-decoration: none;
   }
   .footer__column-link {
-    /*line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    margin: 0;*/
     text-decoration: none;
-
     color: white;
   }
   .footer__social-icon {
@@ -413,61 +408,5 @@ div, p, td, tr, table, nav,ul,li{
 
   .footer__social-icon{
     text-decoration: none;
-
     color: white;
   }
-/*Example
-
-.content {
-  max-width: 1330px;
-  min-width: 1280px;
-}
-.centered-block{
-  margin: auto;
-}
-
-
-.content__title{
-  font-size: 34px;
-  margin: 0 0 40px;
-  text-align: center;
-}
-
-
-.flex-row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.flex-row_space_bottom{
-  margin-bottom: 60px;
-}
-
-.project {
-  background-position: center;
-  background-size: cover;
-}
-
-.project_name_music-album{
-  background-image: url(https://code.s3.yandex.net/web-code/album.png);
-}
-.project_height_l{
-  height: 430px;
-}
-
-*/
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-/*.header__square-pic {
-  height: 568px;
-  width: 568px;
-}*/
-
-/* и элемента с модификатором вида ключ-значение */
-/*.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}*/
