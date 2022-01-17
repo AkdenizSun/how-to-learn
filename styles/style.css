@@ -10,6 +10,9 @@
   background-color: white;
 }
 
+div, p, h1, h2, nav{
+	border: 1px solid red;
+}
 
 /* !Block header */
 
@@ -110,6 +113,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin-top: 100px;
 }
 
 .content__two-columns{
@@ -134,12 +138,12 @@
   font-size: 24px;
 }
 
-.p__item{
+.two-columns__paragraph{
   margin-top: 0px;
   margin-bottom: 30px;
 }
 
-.p__last_item{
+.two-columns__paragraph-last{
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -156,6 +160,8 @@
 .digits{
   display: flex;
   flex-direction: column;
+  margin-bottom:100px;
+  margin-top:100px;
 }
 
 .content_section_gap{
@@ -167,6 +173,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  margin-top: 90px;
   text-align: center;
   font-weight: bold;
   line-height: 1.15;
@@ -283,9 +290,11 @@
   position: relative;
   flex-direction: column;
   overflow: hidden;
+  background-color: #1f1f1f;
+  color:white;
 }
 
-.kaufman_section_gap{
+.table_section_gap{
   margin-bottom: 90px;
 }
 
