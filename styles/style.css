@@ -10,9 +10,7 @@
   background-color: white;
 }
 
-div, p, h1, h2, nav{
-  border: 1px solid red;
-}
+
 /* !Block header */
 
 .header {
