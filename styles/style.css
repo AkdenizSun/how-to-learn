@@ -11,11 +11,11 @@
   overflow: hidden;
 }
 
-div, nav, h1, h2, p, ul, li {
+/*div, nav, h1, h2, p, ul, li {
 
   border:1px solid red;
 
-}
+}*/
 
 /* !Block header */
 
@@ -30,25 +30,23 @@ div, nav, h1, h2, p, ul, li {
 }
 
 .logo {
-  background-size: contain;
-  width: 183px;
-  height: 32px;
-  background-image: url(../images/logo_place_header.svg);
+  width: 184px;
+
 }
 
 .logo_place_header{
   position: absolute;
   top:30px;
   left: 64px;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
   z-index: 5;
 }
 
 .header__title {
   align-self: center;
-  position: absolute;
-  left: 64px;
-  align-content: center;
-  max-width: 730px;
+  width: 730px;
+  margin: auto 64px auto;
   text-align: left;
   line-height: 96px;
   font-size: 102px;
@@ -60,11 +58,13 @@ div, nav, h1, h2, p, ul, li {
   position: absolute;
   left: 64px;
   bottom: 30px;
-  max-width: 388px;
+  width: 388px;
   text-align: left;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
   z-index: 3;
+  margin:0;
 }
 
 .header__link {
@@ -353,24 +353,21 @@ div, nav, h1, h2, p, ul, li {
     display: flex;
     flex-direction: column;
     flex-basis: 711px;
+    height: 100%;
   }
 
   .logo_place_footer {
-    position: absolute;
-
-    width: 183px;
     height: 35px;
     z-index: 100;
-    background-size: cover;
+    margin:0;
     background-image: url(../images/logo_place_footer.svg);
 
   }
   .footer__author {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
     padding-top: 18px;
     padding-bottom: 18px;
+    margin: auto auto 0 0;
 
     line-height: 25px;
     font-size: 18px;
