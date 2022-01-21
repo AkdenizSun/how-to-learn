@@ -8,14 +8,14 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: white;
-  overflow: hidden;
+
 }
 
-div, nav, h1, h2, p, ul, li {
+/*div, nav, h1, h2, p, ul, li {
 
   border:1px solid red;
 
-}
+}*/
 
 /* !Block header */
 
@@ -27,6 +27,7 @@ div, nav, h1, h2, p, ul, li {
   height: 100vh;
 	background-color: #f2f2f2;
   color: #000000;
+  overflow: hidden;
 }
 
 .logo {
@@ -105,8 +106,6 @@ div, nav, h1, h2, p, ul, li {
   display:flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-	/*background-color: white;*/
   color: #000000;
 }
 
@@ -142,13 +141,13 @@ div, nav, h1, h2, p, ul, li {
 }
 
 .two-columns__paragraph{
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
 .two-columns__paragraph-last{
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .span-accent{
@@ -163,8 +162,6 @@ div, nav, h1, h2, p, ul, li {
 .digits{
   display: flex;
   flex-direction: column;
-  margin-bottom:100px;
-  margin-top:100px;
 }
 
 .content_section_gap{
@@ -231,18 +228,15 @@ div, nav, h1, h2, p, ul, li {
 .feynman {
   height: 890px;
 	position: relative;
-  /*align-content: center;*/
-  display:flex;
+   display:flex;
   flex-direction: column;
   align-content: flex-start;
-  /*gap: 10px;*/
   width: 100%;
 	background-color: #f2f2f2;
   color: #000000;
 }
 .feynman__title {
-  /*position: absolute;*/
-  margin-top: 100px;
+   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   width: 648px;
@@ -254,8 +248,7 @@ div, nav, h1, h2, p, ul, li {
 
 }
 .feynman__subtitle {
-    /*position: absolute;*/
-  margin-top: 70px;
+   margin-top: 70px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -268,8 +261,7 @@ div, nav, h1, h2, p, ul, li {
   position: absolute;
   top: 50%;
   right: 48px;
-  /*text-decoration: none;*/
-  color: #2f80ed;
+   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -292,8 +284,8 @@ div, nav, h1, h2, p, ul, li {
   display: flex;
   position: relative;
   flex-direction: column;
-  overflow: hidden;
   background-color: #1f1f1f;
+  overflow: hidden;
   color:white;
 }
 
