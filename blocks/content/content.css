@@ -1,0 +1,8 @@
+@import url(./__two-columns/content__two-columns.css);
+.content{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+}
