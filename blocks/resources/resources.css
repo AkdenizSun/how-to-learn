@@ -10,5 +10,5 @@
   padding-bottom: 217px;
   display: flex;
   flex-direction: column;
-  
+  animation: rotation 20s ease-in-out infinite;
 }
